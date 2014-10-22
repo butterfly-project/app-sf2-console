@@ -1,0 +1,24 @@
+{
+    "name": "butterfly/app-sf2-console",
+    "type": "library",
+    "description": "Butterfly PHP. Sf2 Console Application",
+    "keywords": ["application", "console"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+
+        "symfony/console": "2.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Application\\Sf2Console\\": "src/",
+            "Butterfly\\Application\\Sf2Console\\Tests\\": "tests/"
+        }
+    }
+}
