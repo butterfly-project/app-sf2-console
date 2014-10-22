@@ -1,0 +1,13 @@
+bfy_app.sf2_console.helpers: []
+
+services:
+
+  bfy_app.sf2_console:
+    class: 'Symfony\Component\Console\Application'
+    calls:
+      - [setHelperSet, [@bfy_app.sf2_console.helper_set]]
+      - [addCommands, [#bfy_app.sf2_console.commands]]
+
+  bfy_app.sf2_console.helper_set:
+    class: 'Symfony\Component\Console\Helper\HelperSet'
+    calls: %bfy_app.sf2_console.helpers%
