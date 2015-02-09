@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+1.1.0
+-----
+
+Changes:
+
+ * Updated sf2 console dependencies to 2.6.*
+
 1.0.0
 -----
 
