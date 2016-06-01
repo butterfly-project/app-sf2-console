@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+1.1.1
+-----
+
+Changes:
+
+ * Fix yaml config
+
 1.1.0
 -----
 
