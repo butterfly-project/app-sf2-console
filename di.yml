@@ -10,4 +10,4 @@ services:
 
   bfy_app.sf2_console.helper_set:
     class: 'Symfony\Component\Console\Helper\HelperSet'
-    arguments: '%bfy_app.sf2_console.helpers%'
+    arguments: ['%bfy_app.sf2_console.helpers%']
